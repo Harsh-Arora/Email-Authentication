@@ -63,3 +63,27 @@ table td span{
 #res{
 	font-size: 1.5em;
 }
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+	body{
+		padding: 0;
+	}
+
+	.head{
+		font-size: 1.5em;
+	}
+
+	table{
+		width: auto;
+	}
+
+	table td{
+		padding: 0;
+		width: auto;
+		font-size: 1em;
+	}
+
+	table td input{
+		padding: 0;
+	}
+}
